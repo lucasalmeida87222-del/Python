@@ -1,3 +1,4 @@
+#Faça um programa que leia um numero inteiro e diga se ele é ou não um numero primo.
 num = int(input('Digite um numero inteiro: '))
 total = 0
 for c in range(1, num + 1):

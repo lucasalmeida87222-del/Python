@@ -1,3 +1,4 @@
+#Faça um programa que leia o nome composto de uma pessoa, mostrando em seguida o primeiro e o ultimo nome separadamente.
 nome = str(input('Digite seu nome completo: ')).strip()
 a = nome.split()[0]
 b = nome.split()[-1]

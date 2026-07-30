@@ -1,4 +1,4 @@
-
+#Desenvolva um conversor de temperatura.
 num = float(input('Digite um valor: '))
 graus = 5/9*(num-32)
 print(f'O valor {num},  de fahrenheit para celsius fica {graus:.0f}\u00B0C') #\u00B0C é para colocar o simbolo.

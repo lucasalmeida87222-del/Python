@@ -1,3 +1,4 @@
+#Desenvolva um programa que leia o nome, idade e sexo de 4 pessoas. No final do programa mostre:
 somaidade = 0
 mediaidade = 0
 maioridadehomem = 0

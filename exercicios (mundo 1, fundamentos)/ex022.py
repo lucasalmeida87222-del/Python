@@ -1,3 +1,4 @@
+#Crie um programa que leia o nome completo de uma pessoa e mostre:
 nome = str(input('Qual o seu nome completo? ')).strip() #serve para resolver o problema dos espaços do começo e do fim da frase.
 a = nome.upper()
 b = nome.lower()

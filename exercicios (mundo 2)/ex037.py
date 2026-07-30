@@ -1,3 +1,4 @@
+#Escreva um programa que leia um numero inteiro qualquer e peça para o usuário escolher qual será a base de conversão:
 print('1 para binario\n2 para octal\n3 para hexadecimal')
 numero = int(input('Digite um numero: '))
 conversor = int(input('escolha entre os numeros 1, 2 e 3 e aperte enter para converter: '))

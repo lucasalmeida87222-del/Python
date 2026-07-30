@@ -1,3 +1,5 @@
+#A confederação Nacional de Natação precisa de um programa que leia o ano de nascimento de um atleta e
+#mostre sua categoria, de acordo com a idade:
 from datetime import date
 atual = date.today().year
 print('Confederação Nacional de Natação!')

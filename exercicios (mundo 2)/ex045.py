@@ -1,3 +1,4 @@
+#Crie um programa que faça o computador jogar Jokenpô com você.
 from random import randint
 print('''Suas opções:
 [0] PEDRA

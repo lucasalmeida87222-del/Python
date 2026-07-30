@@ -1,3 +1,4 @@
+#Faça um programa que leia o ano de nascimento de um jovem e informe, de acordo com sua idade:
 from datetime import date
 atual = date.today().year
 nasc = int(input('Ano de nascimento: '))

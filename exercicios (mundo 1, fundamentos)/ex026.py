@@ -1,3 +1,4 @@
+#Faça um programa que leia uma frase pelo teclado e mostre:
 a = str(input('Digite uma frase: ')).strip().upper() #coloquei o .upper() para não ter problema com letra minuscula.
 b = a.count('A')
 c = a.find('A')+1 # o +1 é para contar a partir de 1

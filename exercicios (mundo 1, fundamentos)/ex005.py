@@ -1,3 +1,4 @@
+#Faça um programa que leia um numero inteiro e mostre na tela o seu sucessor e seu antecessor.
 numero=int(input('Digite um valor '))
 a = numero-1
 s = numero+1

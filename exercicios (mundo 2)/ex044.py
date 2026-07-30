@@ -1,3 +1,5 @@
+#Elabore um programa que calcule o valor a ser pago por um produto, considerando o seu preço normal e
+#condição de pagamento:
 preço = float(input('Qual o valor do produto? R$'))
 print('''Métodos de pagamento
 [1] Á vista dinheiro/cheque: 10%, de desconto

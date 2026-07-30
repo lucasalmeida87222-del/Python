@@ -1,3 +1,4 @@
+#Faça um programa que leia um numero inteiro qualquer e mostre na tela e sua tabuada.
 n = int(input('Digite um numero '))
 a = n * 1
 b = n * 2

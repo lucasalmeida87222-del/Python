@@ -1,3 +1,4 @@
+#Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos digitos separados.
 n = int(input('Digite um numero: '))
 u = (n%10)
 d = (n//10)%10

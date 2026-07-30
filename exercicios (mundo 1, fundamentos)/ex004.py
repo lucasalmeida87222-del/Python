@@ -1,3 +1,5 @@
+#Faça um programa que leia algo pelo teclado e mostre na tela seu tipo primitivo e todas as informações possives
+#sobre ele.
 n = input('Diga algo: ')
 print('Essa informação é alphanumérica?', n.isalnum()) # verifica se todos são alfanuméricos
 print('É uma letra?' , n.isalpha()) #verifica se todos são letras do alfabeto

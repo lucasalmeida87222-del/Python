@@ -1,3 +1,5 @@
+#Crie um programa que leia duas notas de um aluno e calcule sua média, mostrando um mensagem no final, 
+#de acordo com a média atingida:
 nota1 = float(input('Primeira nota: '))
 nota2 = float(input('Segunda nota: '))
 media = (nota1 + nota2)/2

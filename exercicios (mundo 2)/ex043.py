@@ -1,3 +1,5 @@
+#Desenvolva uma lógica que leia o peso e a altura de uma pessoa, calcule seu IMC e mostre seu status,
+#de acordo com a tabela abaixo:
 print('''Classificação de IMC (OMS - ADULTOS):
 ----------------------------------------------
 [1] Abaixo de 18.5: ABAIXO DO PESO

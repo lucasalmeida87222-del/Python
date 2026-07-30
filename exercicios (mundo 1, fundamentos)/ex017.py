@@ -1,10 +1,11 @@
+#Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo, 
+#calcule e mostre o comprimento da hipotenusa.
 import math 
 cos = float(input('Digite o valor do cateto adjacente: '))
 sin = float(input('Digite o valor do cateto oposto: '))
 tan = math.hypot(cos, sin)
 print(f'O cateto adjacente é {cos}, o cateto oposto é {sin}, a hypotenusa vai ser {tan:.2f}')
 
-import math
 sin = float(input('Digite o valor do cateto oposto: '))
 tan = float(input('Digite o valor da hipotenusa: '))
 cos = sin / math.tan(math.radians(tan)) 

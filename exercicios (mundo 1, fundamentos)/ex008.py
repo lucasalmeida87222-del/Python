@@ -1,3 +1,5 @@
+# Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros, quilometros,
+#hectômetro e decâmetro.
 m = float(input('Digite um valor '))
 cm = m * 100 #como converter metro para centimetro.
 mm = m * 1000 #como converter metro para milimetro.

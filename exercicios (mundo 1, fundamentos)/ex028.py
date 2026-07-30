@@ -1,3 +1,5 @@
+#Escreva um programa que faça o computador "pensar" em um numero inteiro entre 0 e 5 e peça para o usuário tentar
+#descobrir qual foi o numero escolhido pelo computador.
 from random import randint
 #random 'aleatório' envolve sorteios e futilidades. randint 'int aleatorio'
 computador = randint(0,5) #faz o computador 'PENSAR'

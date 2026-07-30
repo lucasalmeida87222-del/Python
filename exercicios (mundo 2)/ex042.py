@@ -1,3 +1,4 @@
+#Refaça o Desafio 035 dos triângulos, acrescentando o recurdo de mostrar que tipo de triângulo será formado:
 n1 = float(input('Digite um comprimento: '))
 n2 = float(input('Digite outro comprimento: '))
 n3 = float(input('Digite outro comprimento: '))
