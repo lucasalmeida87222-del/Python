@@ -26,3 +26,9 @@ print(n.isalnum()) #é um método das strings que verifica se todos os caractere
 n = input('Digite algo: ')
 print(n.isupper()) #é um método das strings que verifica se todos os caracteres que podem ser 
 #maiúsculos são maiúsculos.
+
+n1 = int(input('Digite um valor: '))
+n2 = int(input('Digite outro valor: '))
+s = n1+n2
+print(f'A soma entre {n1} e {n2} vale {s}!')
+# print(f"{x} + {y} = {r}") cada variável no seu lugar
