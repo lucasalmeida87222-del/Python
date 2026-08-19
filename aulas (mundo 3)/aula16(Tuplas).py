@@ -63,4 +63,4 @@ print(pessoa)
 #10
 pessoa = ('Lucas',39, 'M', 98)
 del(pessoa) #como logo em seguida da tupla pessoa eu usei del(pessoa) ele apagou a tupla e vai aparecer um erro na execução.
-print(pessoa)
+print(pessoa)    
