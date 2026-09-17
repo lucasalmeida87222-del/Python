@@ -1,15 +1,19 @@
 #Crie um programa que vai ler vários números e colocar em uma lista. Depois disso, crie duas listas extras que vão conter apenas os valores pares e os valores ímpares digitados, respectivamente. Ao final, mostre o conteúdo das três listas geradas.
-a = []
-b = []
-c = []
 
-for v in range(0,5):
-    n = int(input('Digite um valor: '))
-    a.append(n)
-    if n % 2 == 0:
-        b.append(n)
-    elif n % 2 !=0:
-        c.append(n)
-print(a)
-print(b)
-print(c)
+num = []
+pares = []
+impares = []
+while True:
+    num.append(int(input('Digite um valor: ')))
+    resp = str(input('Quer continuar? [S/N] '))
+    if resp in 'Nn':
+        break
+for indice, valor in enumerate(num):
+    if valor %2 == 0:
+        pares.append(valor)
+    elif valor %2 == 1:
+        impares.append(valor)
+print('-=-' * 20)
+print(f'A lista completa é {num}.')
+print(f'A lista de pares é {pares}.')
+print(f'A lista de impares é {impares}.')

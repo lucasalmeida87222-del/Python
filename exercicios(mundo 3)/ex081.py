@@ -1,14 +1,17 @@
 #Crie um programa que vai ler vários números e colocar em uma lista. Depois disso, mostre: A) Quantos números foram digitados.
 #B) A lista de valores ordenada de forma decrescente. C) Se o valor 5 foi digitado e está ou não na lista.
-numero = []
 
-for c in range(1,6):
-    n = int(input('Digite um valor: '))
-    numero.append(n)
-numero.sort(reverse = True)
-print(f'Foram digitados {len(numero)} numeros')
-print(f'Os numeros digitados em forma decrescente fica: {numero}')
-if 5 in numero:
-    print(f' o numero 5 foi digitado e esta na lista {numero}!')
+valores = []
+while True:
+    valores.append(int(input('Digite um valor: ')))
+    resp = str(input('Quer continuar? [S/N] '))
+    if resp in 'Nn':
+        break
+print('-=-' * 20)
+print(f'Você digitou {len(valores)} elementos.')
+valores.sort(reverse=True)
+print(f'Os valores em ordem decrescente são {valores}.')
+if 5 in valores:
+    print('O valor 5 faz parte da lista!')
 else:
-    print(f'O numero 5 ainda não esta na lista {numero}!')
+    print('O valor 5 não foi encontrado!')
